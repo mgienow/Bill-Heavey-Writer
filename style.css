@@ -5,8 +5,13 @@ body, p, li, ul, nav, header, footer, h1, h2, h3 {
   display: flex;
   flex-direction: column;
 }
+
 a {
   text-decoration: none;
+  color: #282828;
+}
+a:hover {
+  color:#9F691C;
 }
 /* ======= HEADER ====== */
 
@@ -99,8 +104,8 @@ nav a:hover {
 
 #bookCovers{
   display: flex;
-  justify-content: space-around;
-  width: 75%;
+  justify-content: space-between;
+  width: 85%;
   margin: 0 auto;
   position: relative;
   z-index: 2;
@@ -192,7 +197,10 @@ padding-top: 0.5em;
   text-decoration: none;
   color: #EC7823;
 }
-#indie {
+#indie{
+  display: inline;
+}
+#indie p{
   font-style: italic;
   font-size: 1em !important;
   flex-direction: row;
