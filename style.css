@@ -76,42 +76,6 @@ nav{
   font-size: 1.5em;
 }
 
-
-/* ===== MY BOOKS ===== */
-
-/* ---- MY BOOKS MAIN ------ */
-
-#myTitles{
-  display: flex;
-  align-items: center;
-  position:relative;
-  overflow: hidden;
-  height: 45vh;
-}
-
-#bookCovers img {
-  border: 3px solid #383427;
-  height: 35vh;
-  box-shadow: 5px 5px 2.5px #585443;
-}
-
-#bookCovers{
-  display: flex;
-  justify-content: space-between;
-  width: 85%;
-  margin: 0 auto;
-  position: relative;
-  z-index: 2;
-}
-#parchment{
-  position: absolute;
-  left: 0;
-  top:0;
-  width: 100%;
-  opacity: 0.5;
-}
-
-
     /*  ========= MY BOOKS ============= */
     /* ----------- My Books Header -------- */
     header {
@@ -186,7 +150,7 @@ nav{
     display: flex;
     justify-content: space-around;
     width: 90%;
-    margin: 0 auto;
+    margin: 1em auto;
   }
 
   #buyBooks {
