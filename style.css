@@ -2,8 +2,8 @@ body, p, li, ul, nav, header, footer, h1, h2, h3 {
   margin:0;
   padding:0;
   font-family: "Special Elite", serif;
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
 }
 
 a {
@@ -76,13 +76,6 @@ nav{
   font-size: 1.5em;
 }
 
-nav a{
-  text-decoration: none;
-  color: #282828;
-}
-nav a:hover {
-  color:#C88239;
-}
 
 /* ===== MY BOOKS ===== */
 
@@ -118,107 +111,134 @@ nav a:hover {
   opacity: 0.5;
 }
 
-    /*------- Buy Books & Inscribe ----- */
 
+    /*  ========= MY BOOKS ============= */
     /* ----------- My Books Header -------- */
-#subheader{
-  height: 7em;
-  margin: 0.5em auto;
-  display: flex;
-  width: 96%;
-}
-#logoSmall{
-  height: 100%;
-}
-#subheads {
-  list-style: none;
-  padding-top: 1em;
-  font-size: 1.5em;
-  width: 80%;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-}
+    header {
+      display: flex;
+      height: 10em;
+      margin-top: 1em;
+      justify-content: space-between;
+    }
+    #subLogo{
+     display: flex;
+      align-items: center;
+    }
 
-#subheads a {
-  text-decoration: none;
-  color: #4d4d4d;
-  padding-left: 1.5em;
-}
-#subheads a:hover {
-  color: #C88239;
-}
+    #socialIcons{
+      display: flex;
+      justify-content: flex-end;
+    }
 
-#socialIcons2 {
-display: flex;
-justify-content: flex-start;
-}
-.social2 {
-height: 50%;
-padding-top: 0.5em;
-}
+    #logoNav {
+      display: flex;
+      justify-content: space-around;
+      width: 60vw;
+      padding-bottom: 1em;
+    }
+    #logoNav img {
+      height: 100%;
+    }
+    #subNav {
+      display: flex;
+      justify-content: space-between;
+      width: 60%;
+      font-size: 1.5em;
+      margin-top: 1em;
+    }
 
-#bookBox {
-  display: flex;
-  justify-content: space-around;
-  width: 90%;
-  margin: 0 auto;
-  padding-bottom: 3em;
-  padding-top: 2em;
-}
+  /*-------MY TITLES ----- */
+  #myTitles{
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    position:relative;
+    overflow: hidden;
+  }
+  #bookCovers img {
+    border: 2px solid #282828;
+    height: 35vh;
+    box-shadow: 5px 5px 2.5px #585443;
+  }
 
-#buyBooks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  #bookCovers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 60vh;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 4em;
+  }
 
-  max-width: 50%;
-}
-#buyOne{
-  display: flex;
-  align-items: center;
-  width: 80%;
-}
-#buyOne p{
+  #parchment{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    opacity: 0.5;
+  }
 
+/* ----- Buy Books & Inscribe  -----*/
+  #bookBox {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #buyBooks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+  }
+
+  #buyOne{
+    display: flex;
+    align-items: center;
+    width: 80%;
+  }
+
+  #buyBooks p, blockquote{
+    font-family: 'Merriweather', Arial, sans-serif;
+    text-align: center;
+  }
+  #buyBooks p{
+    color: #4C6289;
+    font-size: 1.5em;
+  }
+  #buyBooks blockquote{
+    font-size: 1.5em;
+  }
+#indie {
+    display: inline !important;
 }
-#buyBooks p, blockquote{
-  font-family: 'Merriweather', Arial, sans-serif;
-  text-align: center;
-}
-#buyBooks p{
-  color: #4C6289;
-  font-size: 1.5em;
-}
-#buyBooks blockquote{
-  font-size: 1.5em;
-}
-#buyBooks a{
-  text-decoration: none;
-  color: #EC7823;
-}
-#indie{
-  display: inline;
-}
-#indie p{
-  font-style: italic;
-  font-size: 1em !important;
-  flex-direction: row;
-}
-#inscribe {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 5px solid #578229;
-  border-radius: 10px;
-  max-width: 40%;
-  text-align: center;
-  padding: 1em 0;
-  margin-bottom: 2em;
-}
-#inscribe h2 {
-  font-size: 1.6em;
-}
+  #indieBound {
+    color: #EC7823;
+    display: inline !important;
+  }
+  #indie p {
+    font-style: italic;
+    font-size: 1em !important;
+    flex-direction: row;
+  }
+  #inscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #578229;
+    border-radius: 10px;
+    max-width: 40%;
+    text-align: center;
+    padding: 1em 0;
+    margin-bottom: 2em;
+  }
+  #inscribe h2 {
+    font-size: 1.6em;
+  }
 
 
 /*   ====== FOOTER ======== */
