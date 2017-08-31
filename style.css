@@ -85,8 +85,7 @@ nav{
       justify-content: space-between;
     }
     #subLogo{
-     display: flex;
-      align-items: center;
+    margin-right: 2em;
     }
 
     #socialIcons{
@@ -96,8 +95,8 @@ nav{
 
     #logoNav {
       display: flex;
-      justify-content: space-around;
-      width: 60vw;
+      /*justify-content: space-around;*/
+      width: 55vw;
       padding-bottom: 1em;
     }
     #logoNav img {
@@ -109,6 +108,7 @@ nav{
       width: 60%;
       font-size: 1.5em;
       margin-top: 1em;
+      flex: 1 0 auto;
     }
 
   /*-------MY TITLES ----- */
@@ -204,6 +204,25 @@ nav{
     font-size: 1.6em;
   }
 
+/* ===== SPEAKING ===== */
+
+#campfire{
+  position: absolute;
+  left: 0;
+  bottom:0;
+  width: 30vw;
+  max-height: 80vh;
+  z-index: -1;
+}
+#speaker {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#speaker header {
+  height: 20%;
+}
 
 /*   ====== FOOTER ======== */
 #designedBy {
