@@ -105,7 +105,6 @@ nav{
     #subNav {
       display: flex;
       justify-content: space-between;
-      width: 60%;
       font-size: 1.5em;
       margin-top: 1em;
       flex: 1 0 auto;
@@ -210,7 +209,6 @@ nav{
   position: absolute;
   left: 0;
   bottom:0;
-  width: 30vw;
   max-height: 80vh;
   z-index: -1;
 }
@@ -218,11 +216,54 @@ nav{
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
-#speaker header {
-  height: 20%;
+
+#speakerContent{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 65%;
 }
+#speakerContent h2 {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 500;
+  color: #4E6052;
+  font-style: italic;
+  font-size: 1.75em;
+  padding-bottom: 1em;
+}
+#speakerContent h1{
+  font-family: 'Times New Roman'; /*'Merriweather', serif;*/
+  font-weight: 300;
+  color: #EB7923;
+  margin-left: 1.5em;
+  font-size: 3em;
+}
+#speakerText {
+  width: 70%;
+  margin: 0 auto;
+  padding-left: 10em;
+}
+#speakerText p{
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1.25em;
+  margin-top: 2em;
+  color: #4E6052;
+}
+#speakerText p:first-letter {
+  float: left;
+  font-size: 75px;
+  line-height: 60px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: 'Merriweather', serif;
+  }
+  #speakerText a{
+    color: #EB7923;
+    font-family: 'Special Elite', Times, serif;
+  }
+
+
 
 /*   ====== FOOTER ======== */
 #designedBy {
