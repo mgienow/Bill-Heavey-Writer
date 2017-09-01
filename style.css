@@ -262,6 +262,92 @@ nav{
     color: #EB7923;
     font-family: 'Special Elite', Times, serif;
   }
+/* ===== CONTACT ======*/
+.contactTitle {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  height: 8em;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.contactTitle h1 {
+  font-family: 'Merriweather', 'Times New Roman', serif;
+  font-size: 3.25em;
+
+  color: #EB7923;
+}
+.contactTitle h3 {
+  font-weight: 400;
+  color: #383838;
+  font-size: 1.75em;
+}
+
+
+#contactContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 35em;
+  width: 34.5em;
+  background-color: #C2BE8F;
+}
+
+#contactBox {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 70%;
+  padding-top: 1em;
+}
+#nameBox {
+  display: flex;
+  justify-content: space-between;
+}
+#firstName, #lastName {
+  width: 45%;
+}
+input, textarea {
+  width: 100%;
+  height: 2em;
+  font-size: 1em;
+  opacity: .3;
+  border: 2px black solid;
+}
+label {
+  font-size: 1em;
+  color: white;
+}
+textarea {
+  height: 5em;
+}
+button {
+  width: 12em;
+  height: 2.5em;
+  background-color: slategray;
+  color: white;
+  font-size: 1em;
+}
+#submit {
+  display: flex;
+  justify-content: center;
+
+}
+#block {
+  display: block;
+  overflow: hidden;
+}
 
 
 
