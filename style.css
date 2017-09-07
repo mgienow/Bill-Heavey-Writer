@@ -19,7 +19,7 @@ a:hover {
   flex-direction: column;
 }
 .stickyMain {
-  height: 85vh;
+  height: 75vh;
 }
 .stickyHeader {
   max-height: 10em;
@@ -368,7 +368,33 @@ button {
   overflow: hidden;
 }
 
+/*  +++++++++++ ABOUT +++++++++++++ */
 
+#aboutMain {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+
+}
+#oakCreek {
+  height: 60%;
+}
+#aboutMain h1 {
+
+    font-size: 3em;
+    font-family: "Merriweather", serif;
+    font-weight: 100;
+    color: #C88239;
+    text-align: right;
+}
+#aboutHero {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+#bioText{
+  width: 40%;
+}
 
 /*   ====== FOOTER ======== */
 #designedBy {
