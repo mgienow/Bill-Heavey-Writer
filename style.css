@@ -13,6 +13,20 @@ a {
 a:hover {
   color:#9F691C;
 }
+
+.sticky {
+  display: flex;
+  flex-direction: column;
+}
+.stickyMain {
+  height: 85vh;
+}
+.stickyHeader {
+  max-height: 10em;
+}
+.stickyFooter {
+  max-height: 3em;
+}
 /* ======= HEADER ====== */
 
 header {
@@ -208,11 +222,11 @@ nav{
   max-height: 80vh;
   z-index: -1;
 }
-#speaker {
+/*#speaker {
   height: 100vh;
   display: flex;
   flex-direction: column;
-}
+}*/
 
 #speakerContent{
   display: flex;
