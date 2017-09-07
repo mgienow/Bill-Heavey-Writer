@@ -17,11 +17,13 @@ a:hover {
 
 header {
   width: 96vw;
-  margin: 1em auto;
+  margin: 1em auto 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 10em;
 }
+
 #logo {
   max-width: 100%;
   max-height: 100%;
@@ -78,12 +80,6 @@ nav{
 
     /*  ========= MY BOOKS ============= */
     /* ----------- My Books Header -------- */
-    header {
-      display: flex;
-      height: 10em;
-      margin-top: 1em;
-      justify-content: space-between;
-    }
     #subLogo{
     margin-right: 2em;
     }
@@ -263,6 +259,15 @@ nav{
     font-family: 'Special Elite', Times, serif;
   }
 /* ===== CONTACT ======*/
+
+#logoNav1 {
+  display: flex;
+  /*justify-content: space-around;*/
+  width: 55vw;
+}
+#logoNav1 img {
+  height: 100%;
+}
 .contactTitle {
   margin: 0 auto;
   width: 60%;
